@@ -1,0 +1,9 @@
+CREATE TABLE PHOTOSOURCE
+(
+  PhotoID INT NOT NULL IDENTITY (1, 1),
+  PhotoSource NVARCHAR (200),
+  Photo IMAGE
+)
+GO
+--
+--
